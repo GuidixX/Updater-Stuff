@@ -1,6 +1,0 @@
-Device Changelog:
-- Minor adjustments on kernel
-
-Rom Changelog:
-- Feb merged Security patch
-- Last source Changes
