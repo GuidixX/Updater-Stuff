@@ -1,0 +1,37 @@
+Highlights & Device Specific Changes:
+Build type: Monthly
+Device: Xiaomi Redmi Note 11 (spes)
+Device maintainer: GuidixX
+
+====================
+     24-04-2024
+====================
+
+• Enabled Suspend To RAM
+• Rm cache on early boot
+• Improved battery backup
+• Added More Audio effects
+• Added vorbis decoder
+• Label more sysfs wakeup nodes
+• Enabled VulcanUI Renderer
+• Enabled UFS Powersaving after boot
+• Fully reworked parts
+• Added RU translation for parts
+• Added MIUI Camera
+• Added Viper4AndroidFX
+• Added some props for optimization and UI Smoothness
+• Updated Thermal normal config
+• Blur Enabled By default (If you have lags, set refreshrate to 60-90 or 90 only, or just disable blur in settings/display)
+• Imported perf blobs from Moto SM6225 tree for better RAM Managment
+• Updated GPU Drivers to v762.10G
+• Set max notification icons on AOD to 9
+• Enabled SkiaGL as HWUI Renderer
+• Compiled kernel with LLVM and LLD Tools
+• Use lz4 compression instead of gz
+• Fixed DT2W
+• Fixed Statusbar padding
+• Fixed Refreshrate QS Tile
+• Fixed FPC Fingerprint issue
+• Improved LMKD for better RAM managment
+• Tuned Surfaceflinger for more smoothness 
+• Fixed QS lags with blur
