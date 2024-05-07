@@ -4,6 +4,28 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     07-05-2024
+====================
+• Not recommended to change my kernel to another(Use only latest DragonTurbo/Ice Kernel 07.05.2024)
+• Synced with latest Derpfest Sources
+• Added support for new Single/Double Tap Implementation
+• Added support for MGLRU (Ram Managment)
+• Switched fully to Uclamp CPU sets
+• Included uclamp tunings from mido
+• Imported surfaceflinger tunings from vili (Better UI smoothness)
+• Updated LMKD Settings
+• Bump Viper4AndroidFX to v6.2
+• Set ZRAM Sise to 60%
+• Add auto HBM settings
+• Add new dynamic thermal profile implementation 
+• Enable Back AOSP Surfaceflinger (Better then CAF Surfaceflinger)
+• Drop unused media codecs
+• Label more sysfs wakeup nodes
+• Enable More options for refreshrate in display settings
+• Add Gboard side padding
+• Removed some unneeded appications (debloated)
+
+====================
      24-04-2024
 ====================
 
