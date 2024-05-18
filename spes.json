@@ -1,17 +1,13 @@
 {
-	"response": [
-		{
-			"maintainer": "GuidixX",
-			"oem": "Xiaomi",
-			"device": "Redmi Note 11/NFC",
-			"filename": "DerpFest-14-OFFICIAL-Stable-spes-20240518.zip",
-			"download": "https://sourceforge.net/projects/guidixproject/files/derpfest/stable/DerpFest-14-OFFICIAL-Stable-spes-20240518.zip/download",
-			"timestamp": 1716050340,
-			"md5": "d41d8cd98f00b204e9800998ecf8427e",
-			"sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
-			"size": 4096,
-			"version": "",
-			"buildtype": "Official",
-		}
-	]
+  "response": [
+    {
+      "datetime": 1715981385,
+      "filename": "DerpFest-14-OFFICIAL-Stable-spes-20240519.zip",
+      "id": "1eabf3d8c146ff544943a471b46344815c277cb994ee8c8ac37f4014735a8c09",
+      "romtype": "Official",
+      "size": 1988723180,
+      "url": "https://sourceforge.net/projects/derpfest/files/spes/DerpFest-14-OFFICIAL-Stable-spes-20240519.zip/download",
+      "version": "14"
+    }
+  ]
 }
