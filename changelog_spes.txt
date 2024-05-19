@@ -4,6 +4,27 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     19-05-2024
+====================
+• ROM: Synced With Latest Derp Sources
+• ROM: Merged May Security Patch
+• ROM: Fixed Settings Crash when you try to disable print service
+• KERNEL: Update to V4.0
+• KERNEL: Upstream to 4.19.314
+• KERNEL: Add Uclamp and CPUset Assistants
+• DEVICE: Add props for better signal
+• DEVICE: Fixed Charging Control
+• DEVICE: Add back Google Restore
+• DEVICE: Increase CPU Boost Duration
+• DEVICE: Optimize system UI for speed
+• DEVICE: Set dex2oat for CPUsets
+• DEVICE: Spoof GMS as griffin_retcn
+• DEVICE: Redirect DcDimming Tile long click to DcDimming settings
+• DEVICE: Enable Force LTE CA
+• DEVICE: Add a system property for System UI compiler filter
+• DEVICE: Switch to ZSTD Zram Compression Algorithm
+
+====================
      07-05-2024
 ====================
 • Not recommended to change my kernel to another(Use only latest DragonTurbo/Ice Kernel 07.05.2024)
