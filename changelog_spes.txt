@@ -4,6 +4,22 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     29-05-2024
+====================
+• Synces with latest Derp Sources
+• Upstream kernel to 4.19.315
+• Merge latest Tag from CLO sources
+• Bring back Android Auto
+• Bring back QuickTap
+• Update MIUI camera to v7.2
+• Update Display Hals from Topaz
+• Update GPU Drivers to v767V2
+• Tune Performance for new drivers 
+• Tune Charging Control Parameters
+• Disable livedisplay(Kcal in kernel is better)
+• Optimize OverlayFS
+
+====================
      19-05-2024
 ====================
 • ROM: Synced With Latest Derp Sources
