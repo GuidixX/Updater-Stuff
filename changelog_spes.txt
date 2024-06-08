@@ -4,9 +4,25 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     08-06-2024
+====================
+• Synced with latest Derp Sources
+• Merge May Security Patch
+• Enable Secure NFC Functionality
+• Enable ldac-aptxadaptive
+• Disable EGL Image tracking
+• Disable Blur By Default
+• Fix green screen with screen recorder
+• Refactor LMKD Logic for better multitasking
+• Add IOS Emoji By Default
+• Add Large Screen Header in QS
+• Enable SVELTE Memory conf
+• Switch back to lz4
+
+====================
      29-05-2024
 ====================
-• Synces with latest Derp Sources
+• Synced with latest Derp Sources
 • Upstream kernel to 4.19.315
 • Merge latest Tag from CLO sources
 • Bring back Android Auto
