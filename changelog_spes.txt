@@ -7,7 +7,7 @@ Device maintainer: GuidixX
      08-06-2024
 ====================
 • Synced with latest Derp Sources
-• Merge May Security Patch
+• Merge June Security Patch
 • Enable Secure NFC Functionality
 • Enable ldac-aptxadaptive
 • Disable EGL Image tracking
