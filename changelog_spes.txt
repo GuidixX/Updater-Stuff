@@ -4,6 +4,15 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     09-06-2024
+====================
+•      HOTFIX      •
+• Fixed top QS padding 
+• Dropped QS header
+• Back to Old sm6225 miui camera
+• Fixed Setup Wizard
+
+====================
      08-06-2024
 ====================
 • Synced with latest Derp Sources
