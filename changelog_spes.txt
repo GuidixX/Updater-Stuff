@@ -4,6 +4,17 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     22-06-2024
+====================
+• Synced with latest Derp Sources
+• Updated Blobs To HyperOS Spesn Global V816.0.5.0.TGCMIXM
+• Updated Build Fingerprint and Vendor Security patch
+• Fixed MIUI camera crash for some devices
+• Switch from list preference to animation scale preference 
+• Update pif for gms spoof
+• More stability and improvements
+
+====================
      09-06-2024
 ====================
 •      HOTFIX      •
