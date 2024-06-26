@@ -4,6 +4,22 @@ Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
 ====================
+     26-06-2024
+====================
+• Merged QPR3
+• Upstream Kernel to 4.19.316
+• Speedup Animations
+• Implemented KProfiles
+• Implemented Battery Light
+• Set Default Mode to battery
+• Update KProfiles to V6.0
+• Add missing VNDK libs
+• Add missing codecs
+• Fix MIUI camera crash
+• Find Kprofiles in settings/battery
+• RefreshRate tile is broken cuz of qpr3 update
+
+====================
      22-06-2024
 ====================
 • Synced with latest Derp Sources
