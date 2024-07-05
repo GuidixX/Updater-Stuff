@@ -3,6 +3,28 @@ Build type: Monthly
 Device: Xiaomi Redmi Note 11 (spes)
 Device maintainer: GuidixX
 
+
+====================
+     05-07-2024
+====================
+• Merged July Security Patch
+• Synced with latest Derp Sources
+• Move to Common Lights HAL
+• Move to Common LibperfMgr
+• Move to Common PerfD Client
+• Move to new RFS Symlinks
+• Kill old Perf service
+• Drop moto sm6225 perf blobs
+• Drop WFD Common
+• Disable Panics
+• Cleanup sepolicy and adress some Selinux denials
+• Setup Device As WebCam
+• Fix Refreshrate Tile
+• Update Some powerhint nodes (Sync with kernel)
+• Update WCNSS ini for LOS qcacld-3.0 drivers
+• Add More Parameters For Hotspot 2.0
+• Switch to C2 Codec
+
 ====================
      26-06-2024
 ====================
