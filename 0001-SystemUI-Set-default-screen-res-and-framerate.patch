@@ -1,14 +1,14 @@
-From 3e3e1cfec4f90243ee1b402e633d764487662c2a Mon Sep 17 00:00:00 2001
+From a043b24029f5050013abc61c9cd5f49cb1efcef2 Mon Sep 17 00:00:00 2001
 From: Guidix <guidixm@gmail.com>
-Date: Wed, 17 Jul 2024 04:07:55 +0300
+Date: Wed, 17 Jul 2024 05:04:28 +0300
 Subject: [PATCH] SystemUI: Set default screen res and framerate
 
 ---
- .../screenrecord/ScreenMediaRecorder.java       | 17 +++++++----------
- 1 file changed, 7 insertions(+), 10 deletions(-)
+ .../screenrecord/ScreenMediaRecorder.java     | 19 +++++++------------
+ 1 file changed, 7 insertions(+), 12 deletions(-)
 
 diff --git a/packages/SystemUI/src/com/android/systemui/screenrecord/ScreenMediaRecorder.java b/packages/SystemUI/src/com/android/systemui/screenrecord/ScreenMediaRecorder.java
-index 46e30282a218..d127795f98f9 100644
+index 46e30282a218..b60828199481 100644
 --- a/packages/SystemUI/src/com/android/systemui/screenrecord/ScreenMediaRecorder.java
 +++ b/packages/SystemUI/src/com/android/systemui/screenrecord/ScreenMediaRecorder.java
 @@ -72,11 +72,12 @@ import java.util.List;
@@ -26,7 +26,12 @@ index 46e30282a218..d127795f98f9 100644
      private static final int AUDIO_SAMPLE_RATE = 44100;
      private static final int MAX_DURATION_MS = 60 * 60 * 1000;
      private static final long MAX_FILESIZE_BYTES = 5000000000L;
-@@ -169,14 +170,10 @@ public class ScreenMediaRecorder extends MediaProjection.Callback {
+@@ -164,20 +165,14 @@ public class ScreenMediaRecorder extends MediaProjection.Callback {
+ 
+         mMediaRecorder.setOutputFormat(MediaRecorder.OutputFormat.MPEG_4);
+ 
+-
+         // Set up video
          DisplayMetrics metrics = new DisplayMetrics();
          WindowManager wm = (WindowManager) mContext.getSystemService(Context.WINDOW_SERVICE);
          wm.getDefaultDisplay().getRealMetrics(metrics);
@@ -38,13 +43,14 @@ index 46e30282a218..d127795f98f9 100644
 -        int height = dimens[1];
 -        refreshRate = dimens[2];
 -        int resRatio = mLowQuality ? LOW_VIDEO_FRAME_RATE_TO_RESOLUTION_RATIO
-+        int Width = 720;
-+        int Height = 1600;
-+        int refereshRate = 60;
-+        int vidBitRate = screenHeight * screenWidth * refereshRate / VIDEO_FRAME_RATE
-                 : VIDEO_FRAME_RATE_TO_RESOLUTION_RATIO;
+-                : VIDEO_FRAME_RATE_TO_RESOLUTION_RATIO;
++        int width = 720;
++        int height = 1600;
++        int refreshRate = 60;
++        int resRatio = mLowQuality ? LOW_VIDEO_FRAME_RATE_TO_RESOLUTION_RATIO : VIDEO_FRAME_RATE_TO_RESOLUTION_RATIO;
          int vidBitRate = width * height * refreshRate / VIDEO_FRAME_RATE * resRatio;
          long maxFilesize = mLongerDuration ? MAX_FILESIZE_BYTES_LONGER : MAX_FILESIZE_BYTES;
+         if (!mHEVC) {
 -- 
 2.44.0.windows.1
 
