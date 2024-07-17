@@ -32,6 +32,7 @@ Device maintainer: GuidixX
 • Implement Tile Entry Activity for DisplayFeatures and refreshrate Tiles
 • Switch to C2 Codecs
 • Build More C2 Codecs
+• Build Again Accord Media Player
 • Fix exoplayer based media players crash
 • Fix QPR3 Related bugs (Wifi, camera, codecs, black screen, refreshrate tile crash)
 • Improve surface smothness adding some hwui props from PAN R
