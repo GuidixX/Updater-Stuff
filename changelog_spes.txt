@@ -5,10 +5,11 @@ Device maintainer: GuidixX
 
 
 ====================
-     05-07-2024
+     17-07-2024
 ====================
 • Merged July Security Patch
 • Synced with latest Derp Sources
+• Upstream Kernel To 4.19.317
 • Move to Common Lights HAL
 • Move to Common LibperfMgr
 • Move to Common PerfD Client
@@ -16,14 +17,24 @@ Device maintainer: GuidixX
 • Kill old Perf service
 • Drop moto sm6225 perf blobs
 • Drop WFD Common
-• Disable Panics
+• Drop MIUI Camera
+• Drop Deprecated OMX Codecs
+• Provide more shims from lineage compat
+• Use Project Quotas for emulated storage instead of SDcardFS
 • Cleanup sepolicy and adress some Selinux denials
 • Setup Device As WebCam
-• Fix Refreshrate Tile
 • Update Some powerhint nodes (Sync with kernel)
 • Update WCNSS ini for LOS qcacld-3.0 drivers
 • Add More Parameters For Hotspot 2.0
-• Switch to C2 Codec
+• Add Back SoundTrigger HAL support
+• Switch to DisplayFeatures
+• Implement FPS Overlay
+• Implement Tile Entry Activity for DisplayFeatures and refreshrate Tiles
+• Switch to C2 Codecs
+• Build More C2 Codecs
+• Fix exoplayer based media players crash
+• Fix QPR3 Related bugs (Wifi, camera, codecs, black screen, refreshrate tile crash)
+• Improve surface smothness adding some hwui props from PAN R
 
 ====================
      26-06-2024
