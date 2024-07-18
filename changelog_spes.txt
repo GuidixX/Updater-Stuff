@@ -23,7 +23,6 @@ Device maintainer: GuidixX
 • Provide more shims from lineage compat
 • Use Project Quotas for emulated storage instead of SDcardFS
 • Cleanup sepolicy and adress some Selinux denials
-• Setup Device As WebCam
 • Update Some powerhint nodes (Sync with kernel)
 • Update WCNSS ini for LOS qcacld-3.0 drivers
 • Add More Parameters For Hotspot 2.0
