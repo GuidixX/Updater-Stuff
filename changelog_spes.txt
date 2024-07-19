@@ -5,7 +5,7 @@ Device maintainer: GuidixX
 
 
 ====================
-     17-07-2024
+     19-07-2024
 ====================
 • Merged July Security Patch
 • Synced with latest Derp Sources
@@ -34,7 +34,7 @@ Device maintainer: GuidixX
 • Build More C2 Codecs
 • Build Again Accord Media Player
 • Fix exoplayer based media players crash
-• Fix QPR3 Related bugs (Wifi, camera, codecs, black screen, refreshrate tile crash)
+• Fix QPR3 Related bugs (Wifi, camera, codecs, black screen, refreshrate tile crash, dead fingerprint hal)
 • Improve surface smothness adding some hwui props from PAN R
 
 ====================
