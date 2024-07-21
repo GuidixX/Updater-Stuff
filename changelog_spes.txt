@@ -9,7 +9,7 @@ Device maintainer: GuidixX
 ====================
 • Merged July Security Patch
 • Synced with latest Derp Sources
-• Upstream Kernel To 4.19.317
+• Upstream Kernel To 4.19.318
 • Move to Common Lights HAL
 • Move to Common LibperfMgr
 • Move to Common PerfD Client
@@ -33,6 +33,7 @@ Device maintainer: GuidixX
 • Switch to C2 Codecs
 • Build More C2 Codecs
 • Build Again Accord Media Player
+• Fix com.android.phone service crash
 • Fix exoplayer based media players crash
 • Fix QPR3 Related bugs (Wifi, camera, codecs, black screen, refreshrate tile crash, dead fingerprint hal)
 • Improve surface smothness adding some hwui props from PAN R
