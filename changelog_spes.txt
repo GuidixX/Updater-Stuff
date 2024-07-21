@@ -20,6 +20,7 @@ Device maintainer: GuidixX
 • Drop MIUI Camera
 • Drop Deprecated OMX Codecs
 • Drop Custom GPU drivers
+• Drop Prebuilt Kernel Modules
 • Provide more shims from lineage compat
 • Use Project Quotas for emulated storage instead of SDcardFS
 • Cleanup sepolicy and adress some Selinux denials
