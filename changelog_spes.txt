@@ -27,6 +27,7 @@ Device maintainer: GuidixX
 • Update WCNSS ini for LOS qcacld-3.0 drivers
 • Add More Parameters For Hotspot 2.0
 • Add Back SoundTrigger HAL support
+• Switch to AOSP WI-FI Display
 • Switch to DisplayFeatures
 • Implement FPS Overlay
 • Implement Tile Entry Activity for DisplayFeatures and refreshrate Tiles
