@@ -5,6 +5,24 @@ Device maintainer: GuidixX
 
 
 ====================
+     10-08-2024
+====================
+• Synced with latest derp sources
+• Merged August Security Patch
+• Merged Linux 4.19.319 Stable
+• Implemented BCR By Default
+• Tune CPU-Sets and Stune Boost
+• Disable NFC Service By default
+• Bring Back Schedtune and Stune Boost
+• Do not balance msm_drm & kgsl_3d0 IRQ's
+• Set CPU Idle timeout to 60ms
+• Label some selinux denials
+• Enable GFX acceleration
+• Start Audio Hal at early init stage
+• Cleanup unused nodes from powehint
+• Enable Fading Marquee
+
+====================
      22-07-2024
 ====================
 • Merged July Security Patch
